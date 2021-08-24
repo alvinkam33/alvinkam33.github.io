@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Accordion from './components/Accordion.js';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const items = [
+    {
+        title: "project1",
+        content: "project1"
+    },
+    {
+        title: "project2",
+        content: "project2"
+    },
+    {
+        title: "project3",
+        content: "project3"
+    },
+    {
+        title: "project4",
+        content: "project4"
+    },
+    {
+        title: "project5",
+        content: "project5"
+    }
+]
+const App = () => {
+    return (
+        <div>
+            <Accordion items={items}/>
+        </div>
+    );
+};
 
 export default App;
