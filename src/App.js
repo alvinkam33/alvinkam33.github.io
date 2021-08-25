@@ -1,32 +1,16 @@
 import React from 'react';
-import Accordion from './components/Accordion.js';
+import Header from './components/Header.js';
+import About from './components/About.js';
+import Experience from './components/Experience.js';
+import Projects from './components/Projects.js';
 
-const items = [
-    {
-        title: "project1",
-        content: "project1"
-    },
-    {
-        title: "project2",
-        content: "project2"
-    },
-    {
-        title: "project3",
-        content: "project3"
-    },
-    {
-        title: "project4",
-        content: "project4"
-    },
-    {
-        title: "project5",
-        content: "project5"
-    }
-]
 const App = () => {
     return (
         <div>
-            <Accordion items={items}/>
+            <Header/>
+            <About/>
+            <Experience/>
+            <Projects/>
         </div>
     );
 };
