@@ -1,5 +1,5 @@
 .intro {
-    margin: 8rem 0 10rem 0;
+    margin: 5rem 0 2.5rem 0;
     color: #cacaca
 }
 
@@ -7,10 +7,12 @@
     font-size: 3em;
 }
 
-.email {
+.link_icon {
     color: #cacaca;
+    margin-right: 1rem;
+    font-size: 2em;
 }
 
-.email:hover {
+.link_icon:hover {
     color: #ffffff;
 }

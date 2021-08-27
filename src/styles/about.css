@@ -1,3 +1,19 @@
 .about {
     color: #cacaca;
+    margin: 2.5rem 0 2.5rem 0;
+}
+
+.interests_grid {
+    display: grid;
+    grid-row: auto auto;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 10em 10em 10em; 
+    grid-row-gap: 5em;
+    grid-column-gap: 5.5em;
+}
+
+.interest {
+    font-size: 1.1em;
+    text-align: center; 
 }

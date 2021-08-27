@@ -15,10 +15,8 @@ const App = () => {
                 <About />
                 <Experience />
                 <Projects />
-            </div>
-            <div className="footer">
-                <Footer />
-            </div>
+            </div> 
+            <Footer />
         </div>
     );
 };

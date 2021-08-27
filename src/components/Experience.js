@@ -1,5 +1,6 @@
 import Accordion from "./Accordion.js";
 import { Element } from "react-scroll";
+import '../styles/accordion.css';
 
 const Experience = () => {
     const items = [

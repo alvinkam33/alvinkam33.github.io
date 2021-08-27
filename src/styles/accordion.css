@@ -9,21 +9,22 @@
 }
 
 .title:hover {
-    transform: scale(1.03, 1.03);
+    transform: scale(1.015, 1.015);
 }
 
 .projects {
     color: #cacaca;
+    margin: 2.5rem 0 2.5rem 0;
 }
 
 .experience {
     color: #cacaca;
+    margin: 2.5rem 0 2.5rem 0;
 }
 
 .context {
     font-style: italic;
 }
 
-.ui-inverted-accordion {
-    color: #cacaca;
-}
+
+

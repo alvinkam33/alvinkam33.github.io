@@ -22,13 +22,14 @@ const About = () => {
                 </p>
                 <h3>My Interests:</h3>
                 <br></br>
-                💻 Technology
-                <br></br>
-                🏒 Sports
-                <br></br>
-                🎹 Music
-                <br></br>
-                👾 Gaming
+                <div className="interests_grid">
+                    <div className="interest">💵 FinTech</div>
+                    <div className="interest">🤖 Machine Learning</div>
+                    <div className="interest">🌆 AR/VR</div>
+                    <div className="interest">🏒 Sports</div>
+                    <div className="interest">🎹 Music</div>
+                    <div className="interest">👾 Gaming</div>
+                </div>
             </div>
         </Element>
     )
