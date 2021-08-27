@@ -51,6 +51,15 @@ body {
     word-wrap: normal;
 }
 
+h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer {
+    color: #cacaca;
+}
+
 @media only screen and (max-width: 1500px) {
     .sections {
       margin-left: 10rem;

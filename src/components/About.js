@@ -6,11 +6,11 @@ const About = () => {
     return (
         <Element id="about" name="about">
             <div className="about">
-                <b>About Me</b>
+                <h2><b>About Me</b></h2>
                 <br></br>
                 <p>
-                    I am a student based in Vancouver, BC studying at the <b>University of British Columbia</b>.
-                    I'm currently in the <b>combined major of computer science and business program (BUCS)</b>.
+                    I am a student based in Vancouver, BC at the <b>University of British Columbia</b>.
+                    I'm currently studying for my <b>combined major in computer science and business (BUCS)</b>.
                 </p>
                 <br></br>
                 <p>
@@ -20,9 +20,7 @@ const About = () => {
                     the tech industry, where I envision myself building my career.
                     <br></br>
                 </p>
-                <p>
-                    My Interests:
-                </p>
+                <h3>My Interests:</h3>
                 <br></br>
                 💻 Technology
                 <br></br>

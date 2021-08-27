@@ -25,7 +25,7 @@ const Experience = () => {
 
     return (
         <Element id="experience" name="experience" className="experience">
-            Experience
+            <h2>Experience</h2>
             <Accordion items={items} />
         </Element>
     );

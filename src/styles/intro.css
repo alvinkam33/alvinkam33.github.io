@@ -1,3 +1,16 @@
 .intro {
+    margin: 8rem 0 10rem 0;
     color: #cacaca
+}
+
+.hello {
+    font-size: 3em;
+}
+
+.email {
+    color: #cacaca;
+}
+
+.email:hover {
+    color: #ffffff;
 }

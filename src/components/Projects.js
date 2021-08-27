@@ -39,7 +39,7 @@ const Projects = () => {
 
     return (
         <Element id="projects" name="projects" className="projects">
-            Projects
+            <h2>Projects</h2>
             <Accordion items={items} />
         </Element>
     );
