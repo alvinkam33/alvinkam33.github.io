@@ -35,6 +35,9 @@ const Header = () => {
                 >
                     Projects
                 </Link>
+                <a href="https://github.com/alvinkam33" className="link" rel="noreferrer" target="_blank">
+                    Github
+                </a>
             </div>
         </header>
     );

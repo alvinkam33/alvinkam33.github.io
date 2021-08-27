@@ -5,7 +5,7 @@
 }
 
 body {
-    background: #1b1c1d;
+    background: #2a2a2a;
 }
 
 .header {
@@ -22,7 +22,12 @@ body {
     font-size: 1.5em;
     font-weight: bold;
     line-height: 25px;
-    color: #6a696e;
+    color: #cacaca;
+}
+
+.home:hover {
+    color: #ffffff;
+    transform: scale(1.1, 1.1);
 }
 
 .link {
@@ -32,5 +37,37 @@ body {
     font-size: 1em;
     line-height: 25px;
     cursor: pointer;
-    color: #6a696e;
+    color: #cacaca;
 }
+
+.link:hover {
+    color: #ffffff;
+    transform: scale(1.1, 1.1);
+}
+
+.sections {
+    margin: auto 20rem auto 20rem;
+    font-size: 1.2em;
+    word-wrap: normal;
+}
+
+@media only screen and (max-width: 1500px) {
+    .sections {
+      margin-left: 10rem;
+      margin-right: 10rem;
+    }
+  }
+  
+  @media only screen and (max-width: 1000px) {
+    .sections {
+      margin-left: 8rem;
+      margin-right: 8rem;
+    }
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .sections {
+      margin-left: 4rem;
+      margin-right: 4rem;
+    }
+  }

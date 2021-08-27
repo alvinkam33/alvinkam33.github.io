@@ -1,0 +1,29 @@
+.links {
+    margin-right: 0.5rem;
+    color: #ffffff;
+    font-size: 1.3em;
+}
+
+.links:hover {
+    color: #cacaca;
+}
+
+.title:hover {
+    transform: scale(1.05, 1.05);
+}
+
+.projects {
+    color: #cacaca;
+}
+
+.experience {
+    color: #cacaca;
+}
+
+.context {
+    font-style: italic;
+}
+
+.ui-inverted-accordion {
+    color: #cacaca;
+}
