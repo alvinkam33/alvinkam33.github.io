@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/alvinkam.dev/static/css/main.7367a7a6.chunk.css",
+    "main.js": "/alvinkam.dev/static/js/main.8c018c58.chunk.js",
+    "main.js.map": "/alvinkam.dev/static/js/main.8c018c58.chunk.js.map",
+    "runtime-main.js": "/alvinkam.dev/static/js/runtime-main.d0f1e806.js",
+    "runtime-main.js.map": "/alvinkam.dev/static/js/runtime-main.d0f1e806.js.map",
+    "static/js/2.7d0e1906.chunk.js": "/alvinkam.dev/static/js/2.7d0e1906.chunk.js",
+    "static/js/2.7d0e1906.chunk.js.map": "/alvinkam.dev/static/js/2.7d0e1906.chunk.js.map",
+    "index.html": "/alvinkam.dev/index.html",
+    "static/css/main.7367a7a6.chunk.css.map": "/alvinkam.dev/static/css/main.7367a7a6.chunk.css.map",
+    "static/js/2.7d0e1906.chunk.js.LICENSE.txt": "/alvinkam.dev/static/js/2.7d0e1906.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d0f1e806.js",
+    "static/js/2.7d0e1906.chunk.js",
+    "static/css/main.7367a7a6.chunk.css",
+    "static/js/main.8c018c58.chunk.js"
+  ]
+}
