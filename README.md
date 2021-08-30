@@ -8,5 +8,5 @@ The latest deployment of the website can be found at https://alvinkam.com/.
 
 ### Credits
 
-Big thanks to @ichung08 for inspiration on the formatting of the website and for motivating me to stop being lazy. You can find his website [here](https://isaacchung.com/).
+Big thanks to [@ichung08](https://github.com/ichung08) for inspiration on the formatting of the website and for motivating me to stop being lazy. You can find his website [here](https://isaacchung.com/).
 
