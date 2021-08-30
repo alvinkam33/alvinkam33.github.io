@@ -20,7 +20,7 @@ const Projects = () => {
         {
             title: "Train Logistics System (Academic Project)",
             context: "February 2021 - April 2021",
-            content: "A train logistics system designed for use by internal logistics managers in order to assign cargo and employees to trains and more. Collaborated in a team of three through all project phases including ideation, relational models, programming and presentation. Developed a basic GUI using Swing where users can input values, perform 19 different queries and view any tables in the database."
+            content: "A train logistics system designed for use by internal logistics managers in order to assign cargo and employees to trains and more. Collaborated in a team of three through all project phases including ideation, relational models, programming, SQL scripting and presentation. Developed a basic GUI using Swing where users can input values, perform 19 different queries and view any tables in the relational database."
         },
         {
             title: "Battle To-Do (nwHacks 2021 Honorable Mention)",

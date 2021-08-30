@@ -9,7 +9,7 @@
     align-items: center;
     justify-content: center;
     grid-template-columns: 10em 10em 10em; 
-    grid-row-gap: 5em;
+    grid-row-gap: 3em;
     grid-column-gap: 5.5em;
 }
 
