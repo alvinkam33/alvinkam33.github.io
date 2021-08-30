@@ -20,7 +20,7 @@ const About = () => {
                     the tech industry, where I envision myself building my career.
                     <br></br>
                 </p>
-                <h3>My Interests:</h3>
+                <h3 className="interests">My Interests:</h3>
                 <br></br>
                 <div className="interests_grid">
                     <div className="interest">💵 FinTech</div>

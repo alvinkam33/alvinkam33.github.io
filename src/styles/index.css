@@ -18,8 +18,8 @@ body {
 .home {
     float: left;
     text-align: center;
-    margin: 12px;
-    font-size: 1.5em;
+    margin: 18px;
+    font-size: 2em;
     font-weight: bold;
     line-height: 25px;
     color: #cacaca;
@@ -33,8 +33,8 @@ body {
 .link {
     float: left;
     text-align: center;
-    margin: 12px;
-    font-size: 1em;
+    margin: 18px;
+    font-size: 1.25em;
     line-height: 25px;
     cursor: pointer;
     color: #cacaca;
@@ -54,10 +54,6 @@ body {
 h2 {
     padding-top: 20px;
     padding-bottom: 20px;
-}
-
-.footer {
-    color: #cacaca;
 }
 
 @media only screen and (max-width: 1500px) {
