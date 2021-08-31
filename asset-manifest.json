@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.74b52b56.chunk.css",
-    "main.js": "/static/js/main.ec26a913.chunk.js",
-    "main.js.map": "/static/js/main.ec26a913.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.d35a3416.js",
-    "runtime-main.js.map": "/static/js/runtime-main.d35a3416.js.map",
-    "static/js/2.7d0e1906.chunk.js": "/static/js/2.7d0e1906.chunk.js",
-    "static/js/2.7d0e1906.chunk.js.map": "/static/js/2.7d0e1906.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.74b52b56.chunk.css.map": "/static/css/main.74b52b56.chunk.css.map",
-    "static/js/2.7d0e1906.chunk.js.LICENSE.txt": "/static/js/2.7d0e1906.chunk.js.LICENSE.txt"
+    "main.css": "/alvinkam.com/static/css/main.74b52b56.chunk.css",
+    "main.js": "/alvinkam.com/static/js/main.ec26a913.chunk.js",
+    "main.js.map": "/alvinkam.com/static/js/main.ec26a913.chunk.js.map",
+    "runtime-main.js": "/alvinkam.com/static/js/runtime-main.81535945.js",
+    "runtime-main.js.map": "/alvinkam.com/static/js/runtime-main.81535945.js.map",
+    "static/js/2.7d0e1906.chunk.js": "/alvinkam.com/static/js/2.7d0e1906.chunk.js",
+    "static/js/2.7d0e1906.chunk.js.map": "/alvinkam.com/static/js/2.7d0e1906.chunk.js.map",
+    "index.html": "/alvinkam.com/index.html",
+    "static/css/main.74b52b56.chunk.css.map": "/alvinkam.com/static/css/main.74b52b56.chunk.css.map",
+    "static/js/2.7d0e1906.chunk.js.LICENSE.txt": "/alvinkam.com/static/js/2.7d0e1906.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.d35a3416.js",
+    "static/js/runtime-main.81535945.js",
     "static/js/2.7d0e1906.chunk.js",
     "static/css/main.74b52b56.chunk.css",
     "static/js/main.ec26a913.chunk.js"
