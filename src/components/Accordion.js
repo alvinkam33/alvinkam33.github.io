@@ -12,6 +12,17 @@ const Accordion = ({ items }) => {
         }
         setActiveIndex(index);
     };
+    
+    const techStack = (tech) => {
+        const renderedTech = tech.map((t) => {
+            return (
+                <div className="tech" key={t}>
+                    {t}
+                </div>
+            );
+        });
+        return renderedTech;
+    }
 
     const renderedItems = items.map((item, index) => {
         const active = index === activeIndex ? 'active' : '';
@@ -30,6 +41,9 @@ const Accordion = ({ items }) => {
                 <div className={`content ${active}`}>
                     <p className="context">{item.context}</p>
                     <p>{item.content}</p>
+                    <div className="tech_container">
+                        {item.technology && (techStack(item.technology))}
+                    </div>
                     <div className="links container">
                         {item.github && (
                             <a href={item.github} rel="noreferrer" target="_blank">
