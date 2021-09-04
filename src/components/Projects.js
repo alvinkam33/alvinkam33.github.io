@@ -40,6 +40,12 @@ const Projects = () => {
             technology: ["Java", "JUnit", "Swing"],
             github: "https://github.com/alvinkam33/CPSC210Project"
         },
+        {
+            title: "ProduBot",
+            context: "February 2021 - March 2021",
+            content: "A Discord bot programmed using Discord Node.js module to automatically manage UBC BizTech's online competition, the Produthon. Integrated with the Google Cloud and Discord APIs to handle automatic email verification and team formation through users entering a command to the server, reading and writing data to JSON and Google Sheets. Developed additional features such as automatically assigning roles to users based on completion of tasks.",
+            technology: ["Node.js"],
+        }
     ];
 
     return (
