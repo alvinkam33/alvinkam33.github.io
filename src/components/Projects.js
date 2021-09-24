@@ -5,6 +5,13 @@ import "../styles/accordion.css";
 const Projects = () => {
     const items = [
         {
+            title: "ambience (Hack the North 2021)",
+            context: "September 2021",
+            content: "A ML/AI facial recognition application that detects a user's emotion through the camera and play a custom playlist based on the emotion, as well as a journal entry feature to log thoughts with the recorded emotion and timestamp. Developed integration with face-api.js for the facial recognition, routing through webpages on React.js, as well as the backend database using Firebase Cloud Firestore for storing and reading journal entries.",
+            technology: ["React.js", "HTML", "CSS", "Firebase"],
+            github: "https://github.com/ichung08/ambience"
+        },
+        {
             title: "UBC Course Explorer (Oakhacks 2020 1st Place)",
             context: "September 2020 - Present",
             content: "A UBC course search web application built using Python and the Django framework. Webscraped data from the UBC Grades and RateMyProfessors APIs to gather course information such as grade profile, course averages and professor ratings. Contributed to implementation of the frontend, particularly the integration with backend API calls and the info page. Designed a recursive solution using HTML and JavaScript to display a course prerequisite tree.",

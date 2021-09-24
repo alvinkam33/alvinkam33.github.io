@@ -5,15 +5,15 @@ import '../styles/accordion.css';
 const Experience = () => {
     const items = [
         {
-            title: "Incoming Software Developer Co-op at Convergence Concepts",
-            context: "September 2021",
+            title: "Software Developer Co-op at Convergence Concepts",
+            context: "September 2021 - Present",
             content: "Develop existing projects such as Fintel Connect and MVPs for low-capital startups primarily using the MERN stack. Support a variety of industries through building solutions for product strategy, AI, marketing, and design.",
-            technology: ["MongoDB", "Express.js", "React.js", "Node.js", "AWS"],
+            technology: ["MongoDB", "Express.js", "React.js", "Node.js", "AWS", "GraphQL"],
             web: "https://cctech.io/"
         },
         {
             title: "IT Analyst Intern at iA Financial Group",
-            context: "May 2021 - Present",
+            context: "May 2021",
             content: "Reduced team workload by 20% by streamlining database reports using SQL and Power BI. Resolved client requests by uploading data using Microsoft SQL Server to launch online applications. Coordinated the deployment and testing of global system changes such as email and division name.",
             technology: ["SQL", "Microsoft SQL Server", "Power BI"],
             web: "https://solutionsinsurance.com/"
