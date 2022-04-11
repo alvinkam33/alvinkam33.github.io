@@ -12,6 +12,12 @@ const Projects = () => {
             github: "https://github.com/ichung08/ambience"
         },
         {
+            title: "UBC BizTech Web Application",
+            context: "April 2021 - Present",
+            content: "A event HUB for UBC BizTech executives to set up event registration and view event metrics, and for users to sign up as members, register for events and interact with other members. Developed the core authentication logic and the form autocomplete feature, allowing users to log in and quickly register for new events using their profile information.",
+            technology: ["React.js", "CSS", "Node.js", "AWS", "Serverless"],
+        },
+        {
             title: "UBC Course Explorer (Oakhacks 2020 1st Place)",
             context: "September 2020 - Present",
             content: "A UBC course search web application built using Python and the Django framework. Webscraped data from the UBC Grades and RateMyProfessors APIs to gather course information such as grade profile, course averages and professor ratings. Contributed to implementation of the frontend, particularly the integration with backend API calls and the info page. Designed a recursive solution using HTML and JavaScript to display a course prerequisite tree.",
