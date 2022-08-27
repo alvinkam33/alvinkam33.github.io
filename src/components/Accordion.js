@@ -14,14 +14,13 @@ const Accordion = ({ items }) => {
     };
     
     const techStack = (tech) => {
-        const renderedTech = tech.map((t) => {
+        return tech.map((t) => {
             return (
                 <div className="tech" key={t}>
                     {t}
                 </div>
             );
         });
-        return renderedTech;
     }
 
     const renderedItems = items.map((item, index) => {
@@ -40,7 +39,7 @@ const Accordion = ({ items }) => {
                 </div>
                 <div className={`content ${active}`}>
                     <p className="context">{item.context}</p>
-                    <p>{item.content}</p>
+                    <p className="item_content">{item.content}</p>
                     <div className="tech_container">
                         {item.technology && (techStack(item.technology))}
                     </div>

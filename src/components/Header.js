@@ -1,7 +1,8 @@
 
 import { Link } from "react-scroll";
+import ReactSwitch from "react-switch"
 
-const Header = () => {
+const Header = ({ theme, setTheme }) => {
     return (
         <header className="header">
             <a href="/" className="home">
@@ -35,6 +36,16 @@ const Header = () => {
                 >
                     Projects
                 </Link>
+                <ReactSwitch 
+                    onChange={() => { setTheme(theme === "dark" ? "light" : "dark") }} 
+                    checked={theme === 'dark'} 
+                    uncheckedIcon={false}
+                    checkedIcon={false}
+                    onColor="#000000"
+                    offColor="#ffffff"
+                    offHandleColor="#000000"
+                    className="switch"
+                />
             </div>
         </header>
     );

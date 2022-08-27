@@ -1,5 +1,5 @@
 {
-  "homepage": "https://alvinkam33.github.io/", 
+  "homepage": "https://alvinkam33.github.io/",
   "name": "personal-website",
   "version": "0.1.0",
   "private": true,
@@ -12,6 +12,7 @@
     "react-icons": "^4.2.0",
     "react-scripts": "4.0.3",
     "react-scroll": "^1.8.3",
+    "react-switch": "^7.0.0",
     "web-vitals": "^1.1.2"
   },
   "scripts": {

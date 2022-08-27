@@ -1,6 +1,5 @@
 .intro {
     margin: 5rem 0 2.5rem 0;
-    color: #cacaca
 }
 
 .hello {
@@ -8,11 +7,6 @@
 }
 
 .link_icon {
-    color: #cacaca;
     margin-right: 1rem;
     font-size: 2em;
-}
-
-.link_icon:hover {
-    color: #ffffff;
 }

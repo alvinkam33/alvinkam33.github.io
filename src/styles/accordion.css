@@ -18,12 +18,7 @@
 
 .links {
     margin-right: 0.5rem;
-    color: #ffffff;
     font-size: 1.3em;
-}
-
-.links:hover {
-    color: #cacaca;
 }
 
 .title:hover {
@@ -31,12 +26,10 @@
 }
 
 .projects {
-    color: #cacaca;
     margin: 2.5rem 0 2.5rem 0;
 }
 
 .experience {
-    color: #cacaca;
     margin: 2.5rem 0 2.5rem 0;
 }
 
