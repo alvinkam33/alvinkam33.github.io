@@ -7,9 +7,9 @@ const Projects = () => {
         {
             title: "UBC BizTech Web Application",
             context: "April 2021 - Present",
-            content: "A event HUB for UBC BizTech executives to set up event registration and view event metrics, and for users/partners to register for events and interact with others.",
+            content: "A event HUB for UBC BizTech executives to manage event registration and view event metrics, and for users and partners to register for events and interact with others.",
             technology: ["React.js", "CSS", "Node.js", "AWS", "Firebase", "Serverless"],
-            github: "https://github.com/ubc-biztech",
+            github: "https://github.com/ubc-biztech/bt-web",
             web: "https://app.ubcbiztech.com/",
         },
         {
@@ -41,7 +41,7 @@ const Projects = () => {
             technology: ["Java", "SQL", "Oracle", "Swing"]
         },
         {
-            title: "Battle To-Do (nwHacks 2021 Honorable Mention)",
+            title: "Battle To-Do (nwHacks 2021 Honourable Mention)",
             context: "January 2021",
             content: "A spin on the classic to-do list app that serves as a simple 5v5 multiplayer game to increase motivation and productivity.",
             technology: ["Python", "Django", "HTML", "CSS", "SCSS"],
