@@ -14,18 +14,18 @@ const About = () => {
                 </p>
                 <br></br>
                 <p>
-                    My goal, no matter the opportunity, is to maximize growth, both on a professional and personal level.
-                    This program has given me a variety of challenges that have developed both my technical and soft skills
-                    while broadening my perspective and ultimately understanding myself better. My next step is to discover
-                    the tech industry, where I envision myself building my career.
+                    My goal, no matter the opportunity, is to maximize growth, both on a personal and professional level.
+                    The BUCS program has given me a variety of challenges that have developed both my technical and soft skills
+                    while broadening my perspective and ultimately understanding myself better. Currently, I envision building my
+                    career in the tech industry as a software engineer, and am using this website as a platform to showcase what I've been up to!
                     <br></br>
                 </p>
                 <h3 className="interests">My Interests:</h3>
                 <br></br>
                 <div className="interests_grid">
-                    <div className="interest">💵 FinTech</div>
-                    <div className="interest">🤖 Machine Learning</div>
-                    <div className="interest">🌆 AR/VR</div>
+                    <div className="interest">👨‍💻 Fullstack</div>
+                    <div className="interest">📈 Business + Tech</div>
+                    <div className="interest">💼 PM</div>
                     <div className="interest">🏒 Sports</div>
                     <div className="interest">🎹 Music</div>
                     <div className="interest">👾 Gaming</div>

@@ -14,7 +14,6 @@
     justify-content: center;
     grid-template-columns: 12em 12em 12em; 
     grid-row-gap: 3em;
-    grid-column-gap: 5.5em;
 }
  
 .interest {
