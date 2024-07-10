@@ -6,7 +6,7 @@ const Projects = () => {
     const items = [
         {
             title: "UBC BizTech Web Application",
-            context: "April 2021 - Present",
+            context: "April 2021 - March 2023",
             video: "https://www.youtube.com/embed/o1MchpE4gtQ",
             content: "A event HUB for UBC BizTech executives to create and manage event registration, while users and partners can register for events and interact with others.",
             technology: ["React.js", "Node.js", "AWS", "DynamoDB", "HTML", "CSS", "Mocha", "Firebase", "Serverless"],
@@ -72,7 +72,7 @@ const Projects = () => {
 
     return (
         <Element id="projects" name="projects" className="projects">
-            <h2>Projects</h2>
+            <h2>Personal Projects</h2>
             <Accordion items={items} />
         </Element>
     );
