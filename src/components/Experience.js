@@ -41,7 +41,7 @@ const Experience = () => {
             chrome extension with TypeScript, HTML/SCSS and an Express.js API using PostgreSQL to 
             visualize various procedures. Diminished latency of company’s internal directory by 40% by 
             implementing server-side pagination and filtering alongside React hooks to cache data and 
-            avoid re-rendering Established flawless CI/CD pipeline on new projects leveraging Docker, 
+            avoid re-rendering. Established flawless CI/CD pipeline on new projects leveraging Docker, 
             GitHub Actions and AWS EC2.`,
             technology: ["TypeScript", "HTML", "SCSS", "Express.js", "PostgreSQL", "Prisma", "Docker", "GitHub Actions", "AWS", "React"],
             web: "https://www.konrad.com/about"
