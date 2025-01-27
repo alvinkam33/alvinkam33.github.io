@@ -26,7 +26,7 @@ const Projects = () => {
             title: "UBC Course Explorer (Oakhacks 2020 1st Place)",
             context: "September 2020 - September 2021",
             video: "https://www.youtube.com/embed/WkvPCwohghw",
-            content: "A UBC course search web application built using Python and the Django framework. Webscraped data from the UBC Grades and RateMyProfessors APIs to gather course information such as grade profile, course averages and professor ratings.",
+            content: "A UBC course search web application built using Python and the Django framework. Webscraped data from the UBC Grades and RateMyProfessors APIs to gather course information such as grade profile, course averages and professor ratings. Improved app performance by developing a script to query and store updated course data on Django periodically.",
             technology: ["Python", "Django", "JavaScript", "Heroku", "Docker", "HTML", "CSS"],
             github: "https://github.com/patrick-5546/ubc-course-explorer",
             web: "https://devpost.com/software/university-path-explorer"

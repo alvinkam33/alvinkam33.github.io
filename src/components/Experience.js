@@ -6,10 +6,12 @@ const Experience = () => {
     const items = [
         {
             title: "Software Engineer Intern at Tesla - Insurance",
-            context: "June 2024 - Present",
-            content: `Joined the Insurance team to develop the Tesla Insurance platform and rating 
-            initiatives using C# and .NET.`,
-            technology: ["C#", ".NET", "MySQL", "Jenkins", "Redis"],
+            context: "June 2024 - August 2024",
+            content: `Designed an insurance policy tester in C# and .NET, reducing rate adjustment times from 1 month to 1 week.
+            Expedited project development time by 50% through refactoring the system workflow for code reusability.
+            Developed asynchronous processing for 50,000+ tests using the observer pattern, RabbitMQ and multithreading.
+            Enhanced system scalability to handle 10,000,000+ data points through Redis key-value caching alongside MySQL data indexing and denormalization, improving query performance.`,
+            technology: ["C#", ".NET", "MySQL", "Jenkins", "Redis", "RabbitMQ"],
             web: "https://www.tesla.com/about"
         },
         {
@@ -25,46 +27,38 @@ const Experience = () => {
         {
             title: "Software Engineer Intern at Tesla - Internal Diagnostics",
             context: "September 2023 - December 2023",
-            content: `Hastened vehicle firmware communications by 30% by redeveloping internal 
-            progress-tracking pages using Ruby on Rails, React and 100% test coverage with RSpec and 
-            Mocha to ensure bug-free deployment. Reduced rollout progress update delays from 2 hours 
-            to 1 minute by migrating the existing automated vehicle query system and implementing a 
-            modular, user-controlled app. Coordinated development cycle between cross-functional teams 
-            to complete features 25% ahead of schedule.`,
+            content: `Revamped firmware release tracking pages in React and Ruby on Rails while visualizing additional metrics.
+            Eliminated scheduled rollout package progress updates every 2 hours by implementing a customizable query app
+            Strengthened the test suite in Mocha and RSpec to achieve 100% code coverage, ensuring bug-free deployments.`,
             technology: ["Ruby on Rails", "React", "RSpec", "Mocha"],
             web: "https://www.tesla.com/about"
         },
         {
             title: "Associate Software Developer Intern at Konrad Group",
             context: "May 2023 - August 2023",
-            content: `Accelerated QA and onboarding processes by 25% by building an action-tracking 
-            chrome extension with TypeScript, HTML/SCSS and an Express.js API using PostgreSQL to 
-            visualize various procedures. Diminished latency of company’s internal directory by 40% by 
-            implementing server-side pagination and filtering alongside React hooks to cache data and 
-            avoid re-rendering. Established flawless CI/CD pipeline on new projects leveraging Docker, 
-            GitHub Actions and AWS EC2.`,
+            content: `Implemented a user action tracking chrome extension to automate procedure recording and documentation in TypeScript, HTML/CSS and an Express.js API with PostgreSQL and Prisma ORM. 
+            Optimized storage capacity from ∼12 to 100+ actions by leveraging image compression and function debouncing.
+            Deployed a flawless CI/CD pipeline for all intern projects using Docker, GitHub Actions and AWS EC2.`,
             technology: ["TypeScript", "HTML", "SCSS", "Express.js", "PostgreSQL", "Prisma", "Docker", "GitHub Actions", "AWS", "React"],
             web: "https://www.konrad.com/about"
         },
         {
             title: "Lead Developer at UBC BizTech Network",
             context: "April 2022 - March 2023",
-            content: `Promoted to lead developer position over UBC BizTech's development team. 
-            Optimized team efficiency by over 400% through improving work processes, strengthening 
-            team culture and enhancing communication with stakeholders. Oversaw and supported responsibilities 
-            of other developers while building multiple features such as the development environment, 
-            payment integration, test pipeline, admin functionality and gamification system.`,
+            content: `Promoted to lead developer position over UBC BizTech's development team, leading 8 developers. 
+            Optimized team efficiency through improving work processes, strengthening 
+            team culture and enhancing communication with stakeholders.
+            Streamlined payment systems for 1,000+ active users by integrating AWS and Stripe API.
+            Launched an in-house gamification system through building a QR generator and personalized event companion, enhancing attendee engagement with 7,500+ QRs scanned and a 99% satisfaction rate.`,
             technology: ["React", "Node.js", "AWS", "DynamoDB", "HTML", "CSS", "Mocha", "Firebase", "Serverless"],
             web: "https://app.ubcbiztech.com/"
         },
         {
             title: "Software Developer Intern at Convergence",
             context: "September 2021 - September 2022",
-            content: `Architected a knowledge base from scratch for a client’s $5M software platform, designing and leading
-            the development of the app using TypeScript, React, Node.js, Strapi and MongoDB. Boosted SEO of company’s website, 
-            increasing website traffic by 900% by developing an automated sitemap and meta tags solution using AWS S3, CloudFront 
-            and Lambda. Enhanced a client’s app performance and reliability by 30% by refactoring the Node.js REST API and 
-            webhooks to reduce unnecessary network activity.`,
+            content: `Architected a client’s knowledge base from scratch in TypeScript, React, Node.js, Strapi and MongoDB.
+            Boosted company website’s SEO, increasing website traffic from ∼20 to 200+ daily users by implementing an automated sitemap and meta tags service using AWS S3, CloudFront and Lambda.
+            Reduced a client’s app latency from ∼4s to <800ms by developing server-side pagination and refactoring webhooks.`,
             technology: ["MongoDB", "Express.js", "React", "Node.js", "AWS", "GraphQL", "PHP", "Strapi", "Contentful", "Next.js", "Drupal"],
             web: "https://cctech.io/"
         },
